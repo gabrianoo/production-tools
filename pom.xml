@@ -18,7 +18,7 @@
 
     <properties>
         <!-- Dependencies Versions -->
-        <spring-boot-admin>1.3.0</spring-boot-admin>
+        <spring-boot-admin>1.2.4</spring-boot-admin>
         <!-- Configuration Properties -->
         <java.version>1.8</java.version>
     </properties>
@@ -49,6 +49,11 @@
                 <groupId>de.codecentric</groupId>
                 <artifactId>spring-boot-admin-server-ui</artifactId>
                 <version>${spring-boot-admin}</version>
+            </dependency>
+     	    <dependency>
+                <groupId>javax.inject</groupId>
+                <artifactId>javax.inject</artifactId>
+                <version>1</version>
             </dependency>
         </dependencies>
         
