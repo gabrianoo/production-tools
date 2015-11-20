@@ -1,0 +1,3 @@
+# Maven export the current project version here.
+project:
+  version:  @project.version@
