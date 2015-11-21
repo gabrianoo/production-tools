@@ -1,11 +1,13 @@
 package com.otasys.web.filters;
 
 import javax.inject.Named;
+import javax.inject.Singleton;
 import javax.servlet.*;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @Named
+@Singleton
 public class SimpleCORSFilter implements Filter {
 
     public void doFilter(ServletRequest req, ServletResponse res, FilterChain chain) throws IOException, ServletException {

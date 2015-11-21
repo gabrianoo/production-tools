@@ -1,3 +1,29 @@
 # Maven export the current project version here.
 project:
   version:  @project.version@
+
+spring:
+  application:
+    name: @project.name@
+
+git:
+  tags:           @git.tags@
+  branch:         @git.branch@
+  build:
+    time:         @git.build.time@
+    user:
+      name:       @git.build.user.name@
+      email:      @git.build.user.email@
+  commit:
+    id:
+      full:       @git.commit.id@
+      abbrev:     @git.commit.id.abbrev@
+    user:
+      name:       @git.commit.user.name@
+      email:      @git.commit.user.email@
+    message:
+      short:      @git.commit.message.short@
+    time:         @git.commit.time@
+
+server:
+  contextPath: /sba
