@@ -19,8 +19,8 @@
     <scm>
         <!-- We need this scm tag in every pom for maven release plugin -->
         <url>https://github.com/gabrianoo/production-tools</url>
-        <connection>scm:git:https://github.com/gabrianoo/production-tools.git</connection>
-        <developerConnection>scm:git:https://github.com/gabrianoo/production-tools.git</developerConnection>
+        <connection>scm:git:git@github.com:gabrianoo/production-tools.git</connection>
+        <developerConnection>scm:git:git@github.com:gabrianoo/production-tools.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
